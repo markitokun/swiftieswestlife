@@ -126,6 +126,49 @@
 </div>
 </div>
 
+<div class="card-group">
+  <div class="col-sm-6  mt-5 ms-5  " style="width: 20rem;">
+    <div class="card text-bg-dark animate__animated animate__fadeInUp">
+    <img src="img/jugando maincra.JPG" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">la primera vez que jugaste maincra</h5>
+        <p class="card-text">un dia muy bonito nos mimimos juntos</p>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="col-sm-6  mt-5 ms-5  " style="width: 20rem;">
+      <div class="card text-bg-dark animate__animated animate__fadeInUp">
+      <img src="img/papas.JPG" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">me hiciste unas papas con carne buenisimas</h5>
+          <p class="card-text">ese dia paso algo muy raro y me sentia raro pero muy feliz contigo</p>
+        </div>
+      </div>
+  </div>
+
+  <div class="card text-bg-dark mt-5 mb-3 ms-5 ratio ratio-1x1 animate__animated animate__fadeInUp" style="width: 30rem;">
+    <video id="myVideo3" width="100%" controls>
+      <source src="img/parkesitom.mp4" type="video/mp4">
+  </video>
+    <div class="card-body">
+    <h5 class="card-title"></h5> 
+    <button id="playPauseBtn2" class="btn btn-primary mt-3">Pausar</button>
+  </div> 
+</div>
+
+<div class="col-sm-6  mt-5 ms-5  " style="width: 20rem;">
+  <div class="card text-bg-dark animate__animated animate__fadeInUp">
+  <img src="img/fondo.JPG" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">EL MEJOR FONDO DEL FUKINWORLD</h5>
+      <p class="card-text"></p>
+    </div>
+  </div>
+</div>
+
+
     
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
@@ -148,6 +191,22 @@
   $(document).ready(function() {
       var video = document.getElementById("myVideo2");
       var playPauseBtn = document.getElementById("playPauseBtn1");
+
+      playPauseBtn.addEventListener("click", function() {
+          if (video.paused) {
+              video.play();
+              playPauseBtn.textContent = "Pausar";
+          } else {
+              video.pause();
+              playPauseBtn.textContent = "Reproducir";
+          }
+      });
+  });
+</script>
+<script>
+  $(document).ready(function() {
+      var video = document.getElementById("myVideo3");
+      var playPauseBtn = document.getElementById("playPauseBtn2");
 
       playPauseBtn.addEventListener("click", function() {
           if (video.paused) {
