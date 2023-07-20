@@ -26,3 +26,9 @@ button{
 #noBtn{
     position: absolute;
 }
+.carousel {
+    width: 100%;
+  }
+  .carousel-item {
+    width: 100%;
+  }

@@ -56,3 +56,9 @@ body{
     padding: spacer !important;
   }
 
+  .carousel {
+    width: 100%;
+  }
+  .carousel-item {
+    width: 100%;
+  }
