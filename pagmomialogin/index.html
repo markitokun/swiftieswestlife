@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>swifterlogin</title>
+<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script>
+  function verificarLogin() {
+    var username = document.getElementById('username').value;
+    var password = document.getElementById('password').value;
+
+    // Simulación de validación de credenciales (NO seguro para producción)
+    var validUsername = 'Emily';
+    var validPassword = 'noviademarkito';
+
+    if (username === validUsername && password === validPassword) {
+        window.location.href = 'momia/pagprincipal.html';
+    } else {
+      alert('tu no eres mi novia perro');
+    }
+  }
+</script>
+</head>
+<body>
+  
+  <form>
+    
+    
+    <label for="username"><i class="fa-solid fa-user"></i>Usuario:</label>
+    <input type="text" id="username" name="username" required><br><br>
+
+    <label for="password"><i class="fa-solid fa-lock"></i>Contraseña:</label>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <button type="button" onclick="verificarLogin()">Iniciar sesión</button>
+  </form>
+</body>
+</html>
