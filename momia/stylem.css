@@ -62,7 +62,7 @@ body{
   .carousel-item {
     width: 100%;
   }
-  #outsideImage, #outsideImage2, #outsideImage3 {
+  #outsideImage, #outsideImage2, #outsideImage3, #outsideImage4, #outsideImage5 {
     max-width: 500px; /* Ajusta el tamaño máximo según tu preferencia */
     height: auto;
     border: 2px solid #ddd;
@@ -111,6 +111,10 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
+.media-container3 {
+    display: flex;
+    flex-wrap: wrap;
+}
 #myVideo2 {
     width: 80%;
     max-width: 100%;
@@ -119,6 +123,14 @@ body{
     border-radius: 8px;
     margin-bottom: 10px;
 }
-
+.video-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 600px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.7); /* Color de fondo con opacidad */
+    padding: 10px; /* Espaciado interno para el texto */
+    max-width: 800px;
+}
 
   
