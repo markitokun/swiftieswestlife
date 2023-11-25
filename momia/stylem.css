@@ -3,7 +3,7 @@
 }
 
 body{
-    background: #790488;
+    background: linear-gradient(to right, #800080, #000000);
 }
 
 .section-padding{
@@ -62,5 +62,63 @@ body{
   .carousel-item {
     width: 100%;
   }
+  #outsideImage, #outsideImage2 {
+    max-width: 500px; /* Ajusta el tamaño máximo según tu preferencia */
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.button-container button {
+    background: linear-gradient(to right, #330033, #660066); /* Degradado de negro a morado */
+    color: white;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.description p {
+    background-color: rgba(255, 255, 255, 0.7); /* Color de fondo con opacidad */
+    padding: 10px; /* Espaciado interno para el texto */
+    max-width: 500px;
+}
+.media-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#outsideCarouselSection, .video-section {
+    flex: 1;
+    padding: 20px; /* Ajusta el espaciado según tus necesidades */
+}
+#outsideCarouselSection {
+    order: 1; /* Cambia el orden de visualización, coloca las imágenes primero */
+}
+
+.video-section {
+    order: 2; /* Coloca el video después de las imágenes */
+}
+#myVideo {
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.media-container2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+#myVideo2 {
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
 
   
