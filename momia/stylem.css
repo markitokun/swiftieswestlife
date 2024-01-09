@@ -62,7 +62,7 @@ body{
   .carousel-item {
     width: 100%;
   }
-  #outsideImage, #outsideImage2, #outsideImage3, #outsideImage4, #outsideImage5 {
+  #outsideImage, #outsideImage2, #outsideImage3, #outsideImage4, #outsideImage5, #outsideImage6, #outsideImage7,#outsideImage8 {
     max-width: 500px; /* Ajusta el tamaño máximo según tu preferencia */
     height: auto;
     border: 2px solid #ddd;
