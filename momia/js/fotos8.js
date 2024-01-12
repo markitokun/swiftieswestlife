@@ -1,4 +1,4 @@
-var outsideImages8 = ["img/meses1.jpg", "img/meses2.jpg", "img/meses3.jpg"];
+var outsideImages8 = ["img/meses1.JPG", "img/meses2.JPG", "img/meses3.JPG"];
 var outsideDescriptions8 = ["besito", "otro besito", "corazao<3"];
 var outsideCurrentIndex8 = 0;
 

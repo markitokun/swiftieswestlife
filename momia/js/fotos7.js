@@ -1,4 +1,4 @@
-var outsideImages7 = ["img/eras1.jpg", "img/eras2.jpg", "img/eras3.jpg"];
+var outsideImages7 = ["img/eras1.JPG", "img/eras2.JPG", "img/eras3.JPG"];
 var outsideDescriptions7 = ["vasito chulo", "cartel mijijis", "posando con el vasito como no"];
 var outsideCurrentIndex7 = 0;
 

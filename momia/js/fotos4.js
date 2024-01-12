@@ -1,4 +1,4 @@
-var outsideImages4 = ["img/parrk.jpg", "img/besopez.jpg", "img/lentes.jpg"];
+var outsideImages4 = ["img/parrk.JPG", "img/besopez.jpg", "img/lentes.JPG"];
 var outsideDescriptions4 = ["fotitos en el museo","besito de pez","nos cambiamos de lentitos"];
 var outsideCurrentIndex4 = 0;
 

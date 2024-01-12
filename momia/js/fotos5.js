@@ -1,4 +1,4 @@
-var outsideImages5 = ["img/xv1.jpg", "img/xv2.jpg", "img/xv3.jpg"];
+var outsideImages5 = ["img/xv1.jpg", "img/xv2.jpg", "img/xv3.JPG"];
 var outsideDescriptions5 = ["bien guapos asi formales","Te veias hermosa con ese vestido","LOCURA"];
 var outsideCurrentIndex5 = 0;
 

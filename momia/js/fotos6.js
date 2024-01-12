@@ -1,4 +1,4 @@
-var outsideImages6 = ["img/eldia1.jpg", "img/eldia2.jpg", "img/eldia3.jpg"];
+var outsideImages6 = ["img/eldia1.jpg", "img/eldia2.JPG", "img/eldia3.JPG"];
 var outsideDescriptions6 = [];
 var outsideCurrentIndex6 = 0;
 

@@ -1,4 +1,4 @@
-var outsideImages3 = ["img/museo1.jpg", "img/museo2.jpg", "img/museo3.jpg"];
+var outsideImages3 = ["img/museo1.JPG", "img/museo2.JPG", "img/museo3.jpg"];
 var outsideDescriptions3 = ["fotitos en el museo"];
 var outsideCurrentIndex3 = 0;
 
