@@ -163,4 +163,10 @@ body{
        height: auto;
     }
  }
- 
+ .container-fluid {
+    padding-top: 100px; /* Altura aproximada de la barra de navegación en píxeles */
+ }
+ .navbar {
+    z-index: 1000; /* O cualquier número que garantice que esté por encima de otros elementos */
+ }
+  
