@@ -1,5 +1,5 @@
 var outsideImages6 = ["img/eldia1.jpg", "img/eldia2.JPG", "img/eldia3.JPG"];
-var outsideDescriptions6 = [];
+var outsideDescriptions6 = ["EL DIA","EL DIA","EL DIA"];
 var outsideCurrentIndex6 = 0;
 
 function changeOutsideContent6(offset) {

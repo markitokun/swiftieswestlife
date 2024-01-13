@@ -150,4 +150,17 @@ body{
   .custom-accordion .accordion-body {
     padding: 15px;
   }
-  
+  /* Estilos para pantallas más grandes (ajusta según sea necesario) */
+#youtubeVideo {
+    width: 800px;
+    height: 500px;
+ }
+ 
+ /* Estilos para dispositivos móviles */
+ @media (max-width: 767px) {
+    #youtubeVideo {
+       width: 100%; /* Hace que el video ocupe el 100% del ancho en dispositivos móviles */
+       height: auto;
+    }
+ }
+ 
